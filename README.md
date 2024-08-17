@@ -5,24 +5,24 @@ Una de las herramientas más fundamentales que permite la conversión entre vari
 ## ¿Por qué es importante un conversor de unidades?
 
 1. Aplicación práctica
-      _Los conversores de unidades son herramientas que se utilizan en la vida cotidiana, desde la cocina hasta la física avanzada
+      1.1 Los conversores de unidades son herramientas que se utilizan en la vida cotidiana, desde la cocina hasta la física avanzada
 
 2. Comprensión de algoritmos
-      _En este proyecto aprenderás conceptos fundamentales de programación, como la creación de funciones, la manipulación de datos y la interacción con el usuario a través de menús y entradas de datos
+      2.2 En este proyecto aprenderás conceptos fundamentales de programación, como la creación de funciones, la manipulación de datos y la interacción con el usuario a través de menús y entradas de datos
 
 3. Versatilidad
-      _Un conversor de unidades se puede adaptar a cualquier unidad que se ingrese en el dato de entrada, dando así un resultado preciso.
+      3.3 Un conversor de unidades se puede adaptar a cualquier unidad que se ingrese en el dato de entrada, dando así un resultado preciso.
 
 
 ## Algoritmo                                               
 
 * Mostrar un menú con los las conversiones disponibles
 
-     1. Kilómetros a Millas   2. Millas a Kilómetros
+     1 Kilómetros a Millas   2 Millas a Kilómetros
 
-     3. Celsius a Fahrenheit  4. Fahrenheit a Celsius
+     3 Celsius a Fahrenheit  4 Fahrenheit a Celsius
 
-     4. Salir
+     4 Salir
    
 * Pedirle al usuario que seleccione una opción
 
