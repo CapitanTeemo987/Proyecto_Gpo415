@@ -1,4 +1,4 @@
-      # TC1028 Conversor de unidades
+# TC1028 Conversor de unidades
 
 Una de las herramientas más fundamentales que permite la conversión entre varios sistemas de medición es un conversor de unidades. Dependiendo del lugar, la cultura o el campo de estudio, estos sistemas pueden variar de múltiples maneras. Por ejemplo, es frecuente realizar conversiones entre el sistema imperial (pies, libras, galones) y el sistema métrico (metros, gramos, litros). Es de suma importancia comprender y usar diversas unidades de medida en un mundo cada vez más globalizado.
 
@@ -17,9 +17,9 @@ Una de las herramientas más fundamentales que permite la conversión entre vari
 
 * Mostrar un menú con los las conversiones disponibles
 
-     1 Kilómetros a Millas                                                                     2 Millas a Kilómetros
+     1 Kilómetros a Millas  2 Millas a Kilómetros
 
-     3 Celsius a Fahrenheit                                                                 4 Fahrenheit a Celsius
+     3 Celsius a Fahrenheit  4 Fahrenheit a Celsius
 
      4 Salir
    
