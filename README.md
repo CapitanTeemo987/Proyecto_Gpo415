@@ -1,4 +1,4 @@
-# TC1028 Conversor de unidades
+# TC1028 Conversor de unidades ### A01712296 Manuel Valentino Ortiz Sánchez 
 
 Una de las herramientas más fundamentales que permite la conversión entre varios sistemas de medición es un conversor de unidades. Dependiendo del lugar, la cultura o el campo de estudio, estos sistemas pueden variar de múltiples maneras. Por ejemplo, es frecuente realizar conversiones entre el sistema imperial (pies, libras, galones) y el sistema métrico (metros, gramos, litros). Es de suma importancia comprender y usar diversas unidades de medida en un mundo cada vez más globalizado.
 
