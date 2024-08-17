@@ -1,26 +1,28 @@
-# TC1028 Conversor de unidades
+      # TC1028 Conversor de unidades
 
 Una de las herramientas más fundamentales que permite la conversión entre varios sistemas de medición es un conversor de unidades. Dependiendo del lugar, la cultura o el campo de estudio, estos sistemas pueden variar de múltiples maneras. Por ejemplo, es frecuente realizar conversiones entre el sistema imperial (pies, libras, galones) y el sistema métrico (metros, gramos, litros). Es de suma importancia comprender y usar diversas unidades de medida en un mundo cada vez más globalizado.
+
 
 ## ¿Por qué es importante un conversor de unidades?
 
 1. Aplicación práctica
-      1.1 Los conversores de unidades son herramientas que se utilizan en la vida cotidiana, desde la cocina hasta la física avanzada
+   1.1 Los conversores de unidades son herramientas que se utilizan en la vida cotidiana, desde la cocina hasta la física avanzada
 
 2. Comprensión de algoritmos
-      2.2 En este proyecto aprenderás conceptos fundamentales de programación, como la creación de funciones, la manipulación de datos y la interacción con el usuario a través de menús y entradas de datos
+      2.2 En este proyecto aprenderás conceptos fundamentales de programación, como la creación de funciones, la manipulación de datos y la interacción con el                usuario a través de menús y entradas de datos
 
 3. Versatilidad
-      3.3 Un conversor de unidades se puede adaptar a cualquier unidad que se ingrese en el dato de entrada, dando así un resultado preciso.
+      3.3Un conversor de unidades se puede adaptar a cualquier unidad que se ingrese en el dato de entrada, dando así un resultado preciso.
+
 
 
 ## Algoritmo                                               
 
 * Mostrar un menú con los las conversiones disponibles
 
-     1 Kilómetros a Millas   2 Millas a Kilómetros
+     1 Kilómetros a Millas     2 Millas a Kilómetros
 
-     3 Celsius a Fahrenheit  4 Fahrenheit a Celsius
+     3 Celsius a Fahrenheit    4 Fahrenheit a Celsius
 
      4 Salir
    
