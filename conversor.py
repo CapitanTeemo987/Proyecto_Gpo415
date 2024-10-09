@@ -9,21 +9,15 @@ def mostrar_historia():
         print("\nNo hay conversiones registradas")
 
 
-def km_a_milla(km):
-    operacion = km * 0.621371
-    return operacion
+conversiones_longitud = [
+    [1, 0.621371, 100000, 1000],  #Km (Km, Milla, Cm, Metros)
+    [1.60934, 1, 160934, 1609.34],  #Milla (Km, Milla, Cm, Metros)
+    [0.00001, 0.0000062137, 1, 0.01],  #Cm (Km, Milla, Cm, Metros)
+    [0.001, 0.000621371, 100, 1]  #Metros (Km, Milla, Cm, Metros)
+]
 
-def milla_a_km(mi):
-    operacion2 = mi * 1.60934
-    return operacion2
-
-def Cm_a_Metros(Cm):
-    operacion3 = Cm * 0.01
-    return operacion3
-
-def Metros_a_Cm(Metros):
-    operacion4 = Metros * 100
-    return operacion4
+def convertir_longitud(cantidad, fila, columna):
+    return cantidad * conversiones_longitud[fila][columna]
 
 def menu_longitud():
     while True:
@@ -34,7 +28,8 @@ Menu de Longitud
 [2] Milla a km
 [3] Cm a Metros
 [4] Metros a Cm
-[5] Menu principal
+[5] Km a Cm
+[6] Menu principal
 """
 )
 
@@ -42,29 +37,35 @@ Menu de Longitud
 
         if respuesta2 == 1:
             km = float(input("Escribe los km: "))
-            resultado1 = km_a_milla(km)
+            resultado1 = convertir_longitud(km, 0, 1)
             historial_conversiones.append(f"{km} km son {resultado1} millas")
             print(f"El total en millas es: {resultado1}")
 
         elif respuesta2 == 2:
             mi = float(input("Escriba las millas: "))
-            resultado2 = milla_a_km(mi)
+            resultado2 = convertir_longitud(mi, 1, 0)
             historial_conversiones.append(f"{mi} mi son {resultado2} km")
             print(f"El total en km es: {resultado2}")
 
         elif respuesta2 == 3:
             Cm = float(input("Escribe los Cm: "))
-            resultado3 = Cm_a_Metros(Cm)
+            resultado3 = convertir_longitud(Cm, 2, 3)
             historial_conversiones.append(f"{Cm} Cm son {resultado3} Metros")
             print(f"El total de Cm a Metros es: {resultado3}")
 
         elif respuesta2 == 4:
             Metros = float(input("Escribe la cantidad de Metros: "))
-            resultado4 = Metros_a_Cm(Metros)
+            resultado4 = convertir_longitud(Metros, 3, 2)
             historial_conversiones.append(f"{Metros} Metros son {resultado4} Cm")
             print(f"El total en Metros es: {resultado4}")
 
         elif respuesta2 == 5:
+            km = float(input("Escribe los Km: "))
+            resultado5 = convertir_longitud(km, 0, 2)
+            historial_conversiones.append(f"{km} Km son {resultado5} Cm")
+            print(f"{km} Km son {resultado5} Cm")
+        
+        elif respuesta2 == 6:
             print("\nRegresando al menu principal...")
             break
 
