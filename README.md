@@ -54,3 +54,8 @@ Una de las herramientas más fundamentales que permite la conversión entre vari
 * Repetir el menú al finalizar la operación
 
 * Si ha seleccionado la opción 5, finalizar el programa  
+
+## Referencias
+
+- El Poder del Bucle Infinito con while True en Python. (2024, February 29). My Blog. https://codigopyton.com/while-true-en-python/
+- 📗 Funciones en Python. (n.d.). El Libro De Python. https://ellibrodepython.com/funciones-en-python
